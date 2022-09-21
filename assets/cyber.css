@@ -1,0 +1,133 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(47,1,1,1) 100%, rgba(3,0,0,1) 100%);
+}
+
+header img{
+    margin-left: 10px;
+}
+
+
+aside{
+    padding-top: 5px;
+    background-color: rgb(39, 0, 0);
+    color: yellow;
+    border: 1px solid black;
+}
+
+aside h2{
+    margin-left: 15px;
+}
+
+
+aside a{
+  color: yellow;
+  margin-left: 15px;
+  margin-top: 10px;
+  font-size: 19px;
+}
+
+aside a:hover{
+    background-color: yellow;
+    color: green;
+    margin-left: 25px;
+    font-size: 20px;
+}
+    
+
+mark{
+    background-color: rgb(39, 0, 0);
+    color: rgb(255, 255, 67);
+}
+
+ul { list-style: none; padding-left: 5px; }
+a { color:rgb(0, 0, 0); text-decoration: none;}
+.bar {
+    background-color: #f9f9fb;
+    padding:15px;
+    border-top: solid 1px #000000;
+    border-bottom: solid 1px #000000;
+}
+.content {
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+}
+iframe{
+    width: 680px;
+    height: 400px;
+    border: yellow 5px solid;
+}
+
+footer {
+    padding-left: 15px;
+    padding-right: 15px;
+    min-height: 120px;
+    border-top: solid 1px #000000;
+    background-color:  rgb(39, 0, 0);
+    color: yellow;
+}
+
+footer p{
+    margin-left: 15px;
+    text-align: right
+}
+
+footer ul{
+    display: flex;
+    justify-content: center;
+}
+
+footer ul li{
+    list-style-type: none;
+    padding-right: 20px;
+    text-shadow: none;
+    color: black;
+    background-color: yellow;    
+}
+
+footer li :hover{
+    color: green;
+    border-bottom: solid 5px black;
+}
+
+.anchors {
+    padding-top: 25px;
+    border-left: solid 1px #000000;
+    padding-left: 15px;
+    background-color: rgb(39, 0, 0) ;
+    color: yellow;
+}
+
+.logo2{
+    background-color: yellow;
+    margin-right: 15px;
+}
+
+
+.poster{
+    background: rgb(255, 255, 0);
+    color: rgb(1, 85, 1);
+}
+
+.anchors a{
+    color: yellow;
+}
+.sidebar {
+    border-right: solid 1px #000000;
+}
+figure {
+    text-align: center;
+}
